@@ -1,5 +1,5 @@
 /*ブラウザ特有のCSSをあらかじめ削除しておく*/
-* 
+*
 {
   margin: 0;
   padding: 0;
@@ -11,8 +11,28 @@ header{
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
+  text-align: center;
 }
 
+header .heading
+{
+  font-size: 32px;
+}
+
+
+.nav-list
+{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item
+{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
 /*メインビジュアルの指定。ヘッダーと同じく横幅いっぱい。高さは300pxで背景色をオレンジに設定*/
 .main-visual
 {
