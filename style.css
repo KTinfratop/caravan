@@ -4,9 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b
 }
 /*リセットCSSとは、ブラウザ独自のデフォルトCSSに影響を受けて、レイアウトが崩れてしまわないようにするための制御です。*/
 
+a
+{
+  text-decoration: none;
+}
 header{
   width: 90%;
   padding: 15px 0;
@@ -38,7 +43,6 @@ header .heading
 {
   width: 100%;
   height: 300px;
-  background-color: orange;
 }
 
 /*メインビジュアルコンテンツの設定*/
@@ -46,7 +50,6 @@ header .heading
 {
   width: 350px;
   height: 300px;
-  background-color: gold;
 }
 /*メインの設定。高さを広く、横幅は同じ。背景色をグリーンに指定*/
 .main
@@ -63,18 +66,24 @@ header .heading
 {
   width: 600px;
   height: 1400px;
-  background-color: limegreen;
 }
 
 .sidebar
 {
   width: 240px;
   height: 1400px;
-  background-color: palegreen;
 }
 
 footer
 {
   width: 100%;
-  height: 120px
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text
+{
+  color: #fff;
 }
