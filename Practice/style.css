@@ -1,0 +1,65 @@
+/*ブラウザ特有CSSを削除*/
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*ヘッダーのCSS.横幅いっぱいで高さ指定。色はred*/
+.header
+{
+  width: 100%;
+  height:50px;
+  background-color: red; 
+  
+}
+
+
+/*メインビジュアルの指定。ヘッダーと同じく横幅いっぱい。高さは300pxで背景色をオレンジに設定*/
+.main-visual
+{
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+
+/*メインの設定。高さを広く、横幅は同じ。背景色をグリーンに指定*/
+.main
+{
+  width: 960px;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+}
+
+/*ブログの範囲とサイドバーの設定.どちらもメインの子要素*/
+.side-l
+{
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+.blog
+{
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+.side-r
+{
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+/*フッターの設定。横幅同様高さ120px背景色ブルー*/
+.footer
+{
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
