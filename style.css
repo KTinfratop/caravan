@@ -7,29 +7,10 @@
 }
 /*リセットCSSとは、ブラウザ独自のデフォルトCSSに影響を受けて、レイアウトが崩れてしまわないようにするための制御です。*/
 
-/*ヘッダーのCSS.横幅いっぱいで高さ指定。色はred*/
-.header
-{
-  width: 100%;
-  height:120px;
-  background-color: red; 
-  
-}
-
-/*ヘッダートップの設定*/
-.header-top
-{
-  width: 100%;
-  height: 70px;
-  background-color: hotpink;
-}
-
-/*ヘッダーボトムの設定*/
-.header-bottom
-{
-  width: 100%;
-  height: 50px;
-  background-color: pink;
+header{
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
 }
 
 /*メインビジュアルの指定。ヘッダーと同じく横幅いっぱい。高さは300pxで背景色をオレンジに設定*/
@@ -72,10 +53,8 @@
   background-color: palegreen;
 }
 
-/*フッターの設定。横幅同様高さ120px背景色ブルー*/
-.footer
+footer
 {
   width: 100%;
-  height: 120px;
-  background-color: blue;
+  height: 120px
 }
